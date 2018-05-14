@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    padding-bottom: 70px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAdCAYAAADVV140AAABtElEQVR42sWYWQ6EIBBEOY37ev/DOSkTEpKSPBmJfhBHpZtHNw3lhKZpjmVZjn3fb7V1XY+u6w7ZjeN4tG17tmma0n6nzwvf6hdtZK8+8ie/OHbq+zb4tm3noOrf970Gyj93cD3Xez1Tf9nlnheBU8c0spgJ9ZnnWb911T1FNs0E8DC4Zh9hdLVoAIDscMI8Xjl4ugT8PQMI2AG4pUsHwSF6kMLSxktS7Rm4Zq+IxSgMw3AngqUZkl/5T8d7DB7vVWgxGvr9BJZ8VgG36MT9V+/+jH6aRfkzP/XA3TgWYGYA3Hlkn479ArjvPA6Rn6ztGG+Cc9p5eX0EzoUmQCjoL8B5L5YtnAG1wD21Jce92/vSKTn2U3sAd0Fl9yWRBwFHQsvur8DzAseLSwqvJrj85Yr7kiuC67j1AmLpKiePwGXvkpcLX7zB1lJhSqMNgzt0fgly7QQZZWZKszcwA+f3kOV85sMDfVED/F/dA+BwtNcAZynA4CViqiI4f3cyOOuL+uCsewCcxf0r4Mzg4PCJ9gI4f9IZOKyvt8H5f52gNEBFfwDOO1sA/UFOXDkyuPpDsFjX/AAaVQm/PXemlQAAAABJRU5ErkJggg==); 
+    background-repeat: repeat; 
+}
+
+.navbar-brand {
+    font-size: 30px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    margin-left: 16px;
+}
+
+.box-header {
+    width:960px;
+}
+
+.box {
+    width:960px;
+}
+
+.nametag {
+    color: #fa8072 !important; 
+    margin: 0 !important;
+}
+
+.namelogo {
+    height: 50px;
+}
+
+.profilepic {
+    border-radius: 5px 20px 5px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.navigation {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+.section {
+    background-color: #fff;
+}
+
+h1, .text {
+    color:#4aaaa5;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-size: 25px;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    text-indent: 3rem;
+}
+
+.portfolio1 {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.description {
+    position: absolute;
+    background-color: #4aaaa5;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    top: 130px;
+}
+
+label {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+h1 {
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+        4px 4px 0px #d5d5d5, 
+        7px 7px 0px #000);
+}
+
+.footer {
+    border-top: 6px solid #4aaaa5;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) { 
+    .box-header {
+        width: 100%;
+    }
+
+    .section {
+        width: 766px;
+    }
+
+    aside {
+        width: 766px;
+        margin-top: 20px;
+    }
+
+    .profilepic {
+        height: 200px;
+        width: 350px;
+    }
+    .text-info {
+        margin-top: 20px;
+    } 
+
+    .description {
+        font-size: 8px;
+        top: 50px;
+        width: 55px;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    .box-header {
+        width: 100%;
+    }
+
+    .section {
+        width: 766px;
+    }
+
+    aside {
+        width: 566px;
+        margin-top: 20px;
+    }
+
+    .profilepic {
+        height: 200px;
+        width: 350px;
+    }
+    .text-info {
+        margin-top: 20px;
+    } 
+
+    .description {
+        font-size: 20px;
+        top: 120px;
+        width: 150px;
+    }
+
+    .logo {
+        width:80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 640px) { 
+    .box-header {
+        width: 100%;
+    }
+
+    .section {
+        width: 358px;
+    }
+
+    aside {
+        width: 358px;
+        margin-top: 20px; 
+    }
+
+    .profilepic {
+        height: 200px;
+        width: 350px;
+    }
+    .text-info {
+        margin-top: 20px;
+    } 
+
+    .description {
+        font-size: 8px;
+        top: 50px;
+        width: 55px;
+    }
+
+    .logo {
+        width:50px;
+        height: 50px;
+    }
+}
+
